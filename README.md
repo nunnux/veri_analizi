@@ -1,6 +1,5 @@
 # veri_analizi
-Bu kod, bir otel rezervasyon veri seti üzerinde eksik veri işleme, temel veri analizi, istatistiksel özetleme ve bazı özellik mühendisliği adımlarını içeriyor. Aşağıda kodun amacı ve işleyişine dair bir özet ile önerilen model yaklaşımlarını bulabilirsiniz.
-
+Bu kod, bir otel rezervasyon veri seti üzerinde eksik veri işleme, temel veri analizi, istatistiksel özetleme ve bazı özellik mühendisliği adımlarını içeriyor. 
 Veri Yükleme ve Hazırlık:
 
 pandas kullanarak veri seti yükleniyor ve ilk gözlemler inceleniyor.
@@ -20,7 +19,7 @@ Korelasyonu yüksek olan sütunlar belirleniyor ve bu sütunlar çıkarılıyor.
 
 Rezervasyon bekleme süresini ve lider zamanı toplayarak total_wait_time adlı yeni bir özellik oluşturuluyor.
 Model Önerisi
-Bu veri seti ile çalışmak için model önerisi, projenin hedeflerine göre değişiklik gösterir. Ancak genellikle bu tür otel rezervasyon verileriyle şu analizler yapılabilir:
+Bu tür otel rezervasyon verileriyle şu analizler yapılabilir:
 
 Klasifikasyon Modeli:
 
@@ -33,8 +32,7 @@ Hedef değişken, total_wait_time veya lead_time olabilir.
 Öneri:
 
 Random Forest veya Gradient Boosting modelleri, özellikle kategorik ve sayısal verilerle iyi performans gösterir.
-Veriyi modellemeye uygun hale getirdikten sonra train_test_split ile eğitim ve test setlerine ayırabilir ve model performansını değerlendirebilirsiniz.
-İhtiyacınıza göre daha spesifik bir model önerisi veya örnek kod da sağlayabilirim.
+Veriyi modellemeye uygun hale getirdikten sonra train_test_split ile eğitim ve test setlerine ayırabilir ve model performansını değerlendirebilir.
 
 
 https://www.kaggle.com/code/nurayerdogan/veri-analizi
